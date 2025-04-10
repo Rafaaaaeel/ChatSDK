@@ -8,33 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D38D30A52DA74EDF005940B9 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D30A42DA74ED5005940B9 /* Chat.swift */; };
+		D38D30D82DA86E1A005940B9 /* ChatSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D38D30D72DA86E1A005940B9 /* ChatSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D38D30992DA74ECF005940B9 /* ChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38D30A42DA74ED5005940B9 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		D38D30D72DA86E1A005940B9 /* ChatSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatSDK.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D38D309E2DA74ECF005940B9 /* Exceptions for "ChatSDK" folder in "ChatSDK" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			publicHeaders = (
-				ChatSDK.h,
-			);
-			target = D38D30982DA74ECF005940B9 /* ChatSDK */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D38D309B2DA74ECF005940B9 /* ChatSDK */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D38D309E2DA74ECF005940B9 /* Exceptions for "ChatSDK" folder in "ChatSDK" target */,
-			);
-			path = ChatSDK;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D38D30962DA74ECF005940B9 /* Frameworks */ = {
@@ -51,7 +32,6 @@
 			isa = PBXGroup;
 			children = (
 				D38D30A62DA74F95005940B9 /* Sources */,
-				D38D309B2DA74ECF005940B9 /* ChatSDK */,
 				D38D309A2DA74ECF005940B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +47,7 @@
 		D38D30A62DA74F95005940B9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D38D30D72DA86E1A005940B9 /* ChatSDK.h */,
 				D38D30A42DA74ED5005940B9 /* Chat.swift */,
 			);
 			path = Sources;
@@ -79,6 +60,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38D30D82DA86E1A005940B9 /* ChatSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +79,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D38D309B2DA74ECF005940B9 /* ChatSDK */,
 			);
 			name = ChatSDK;
 			packageProductDependencies = (
